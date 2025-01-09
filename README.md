@@ -1,5 +1,6 @@
 # Prism
-https://cdn.discordapp.com/attachments/1326294164647710803/1326952469531594882/h.png?ex=67814c4a&is=677ffaca&hm=468ec9ba1decbdcda206cc7af66f80bb38726f0525e202d281498a3f0666a587&
+![image](https://github.com/user-attachments/assets/1d6587cf-59fe-4456-9b3b-385b79149839)
+
 The all-in-one dashboard built from the legacy of Heliactyl. A high performance user interface, full built-in panel for managing servers, coins system, resources store and more.
 
 ## Required: Edit your Wings configuration
@@ -103,6 +104,29 @@ cd ../
 
 bun run app.js
 ```
+
+### Supported panel and wings operating systems
+
+| Operating System | Version | Supported          | PHP Version |
+| ---------------- | ------- | ------------------ | ----------- |
+| Ubuntu           | 14.04   | :red_circle:       |             |
+|                  | 16.04   | :red_circle: \*    |             |
+|                  | 18.04   | :red_circle: \*    |             |
+|                  | 20.04   | :white_check_mark: | 8.3         |
+|                  | 22.04   | :white_check_mark: | 8.3         |
+|                  | 24.04   | :white_check_mark: | 8.3         |
+| Debian           | 8       | :red_circle: \*    |             |
+|                  | 9       | :red_circle: \*    |             |
+|                  | 10      | :white_check_mark: | 8.3         |
+|                  | 11      | :white_check_mark: | 8.3         |
+|                  | 12      | :white_check_mark: | 8.3         |
+| CentOS           | 6       | :red_circle:       |             |
+|                  | 7       | :red_circle: \*    |             |
+|                  | 8       | :red_circle: \*    |             |
+| Rocky Linux      | 8       | :white_check_mark: | 8.3         |
+|                  | 9       | :white_check_mark: | 8.3         |
+| AlmaLinux        | 8       | :white_check_mark: | 8.3         |
+|                  | 9       | :white_check_mark: | 8.3         |
 
 ## Using the installation scripts
 To use the installation scripts, simply run this command as root.
