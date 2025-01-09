@@ -1,5 +1,5 @@
 # Prism
-
+https://cdn.discordapp.com/attachments/1326294164647710803/1326952469531594882/h.png?ex=67814c4a&is=677ffaca&hm=468ec9ba1decbdcda206cc7af66f80bb38726f0525e202d281498a3f0666a587&
 The all-in-one dashboard built from the legacy of Heliactyl. A high performance user interface, full built-in panel for managing servers, coins system, resources store and more.
 
 ## Required: Edit your Wings configuration
@@ -42,7 +42,7 @@ If you don't do this, Prism can't communicate with your nodes.
 - Nginx
 - SSL certificate (recommended)
 
-## 1. Prerequisites Installation
+## 1. Prerequisites Installation [Harder Way]
 
 1. Install Redis:
 ```bash
@@ -103,6 +103,13 @@ cd ../
 
 bun run app.js
 ```
+
+## Using the installation scripts
+To use the installation scripts, simply run this command as root.
+```bash
+bash <(curl -s https://pterodactyl-installer.se)
+```
+Note: On some systems, it's required to be already logged in as ```root``` before executing the one-line command (where sudo is in front of the command does not work).
 
 ## Nginx Configuration 
 
